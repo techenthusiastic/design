@@ -1,0 +1,92 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+#wrapContent {
+	height: 100vh;
+	width: 100%;
+	background: #ffffff url("/image/workspace.jpg") no-repeat center fixed;
+	/* background-size: contain; */
+	background-size: cover;
+	/* background-position-x: left; */
+	/* background-image: url("/image/workspace.jpg"); */
+}
+.user_card {
+	padding: 4% 8%;
+	background: rgba(220, 220, 220, 0.377);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 4px;
+}
+.brand_logo_container {
+	position: absolute;
+	height: 16vh;
+	top: -8vh;
+	padding: 2vh 20px;
+	/* border-radius: 50%; */
+	border-radius: 8px;
+	/* background: #60a3bc; */
+	text-align: center;
+	overflow: hidden;
+	/* overflow: auto; */
+	background-color: gainsboro;
+	box-shadow: 0 0 4px lightgrey, 0 0 8px lightgrey, 0 0 8px gainsboro,
+		0 0 11px gainsboro, 0 0 12px gainsboro, 0 0 13px gainsboro;
+	border: 2px solid white;
+}
+.brand_logo {
+	height: 70%;
+}
+#form-head {
+	margin-top: 4vh;
+	margin-bottom: 3vh;
+	color: whitesmoke;
+	text-shadow: 0 0 10px rgba(125, 67, 152, 1);
+}
+.fs-14 {
+	font-size: 14px;
+}
+.fs-18 {
+	font-size: 18px;
+}
+.login_btn {
+	width: 100%;
+	background: rgba(125, 67, 152, 1);
+	color: white;
+	font-size: large;
+	letter-spacing: 1.5px;
+}
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+.input-group-text {
+	background: rgba(125, 67, 152, 1) !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.focus-no-design:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+.custom-control-label {
+	color: white;
+	cursor: pointer;
+}
+.custom-checkbox,
+.custom-control-input {
+	border: none !important;
+	box-shadow: none !important;
+	outline: none !important;
+}
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+	background-color: rgba(125, 67, 152, 1) !important;
+}
+@media only screen and (max-width: 768px) {
+	#form-head {
+		margin-top: 6vh;
+	}
+}
